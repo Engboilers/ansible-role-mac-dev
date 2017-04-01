@@ -1,5 +1,5 @@
 galaxy_info:
-  author: kadaan
+  author: engboilers
   description: Mac developer box installation.
   license: Apache 2.0
   min_ansible_version: 2.2
@@ -13,10 +13,10 @@ galaxy_info:
     - system
     - packaging
 dependencies:
-  - kadaan.homebrew
-  - kadaan.prezto
-  - kadaan.mas
-  - kadaan.node
-  - kadaan.python
-  - kadaan.ruby
-  - kadaan.atom-packages
+  - engboilers.homebrew
+  - engboilers.prezto
+  - engboilers.mas
+  - engboilers.node
+  - engboilers.python
+  - engboilers.ruby
+  - engboilers.atom-packages

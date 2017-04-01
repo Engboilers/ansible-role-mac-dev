@@ -1,6 +1,6 @@
 # Ansible Role: Mac-dev
 
-[![Build Status](https://travis-ci.org/kadaan/ansible-role-mac-dev.svg?branch=master)](https://travis-ci.org/kadaan/ansible-role-mac-dev)
+[![Build Status](https://travis-ci.org/engboilers/ansible-role-mac-dev.svg?branch=master)](https://travis-ci.org/engboilers/ansible-role-mac-dev)
 
 Mac developer box installation.
 
@@ -75,19 +75,19 @@ Global Ruby gems you would like to make sure are installed.
 
 ## Dependencies
 
-    - [kadaan.homebrew](https://galaxy.ansible.com/kadaan/homebrew/)
-    - [kadaan.prezto](https://galaxy.ansible.com/kadaan/prezto/)
-    - [kadaan.mas](https://galaxy.ansible.com/kadaan/mas/)
-    - [kadaan.node](https://galaxy.ansible.com/kadaan/node/)
-    - [kadaan.python](https://galaxy.ansible.com/kadaan/python/)
-    - [kadaan.ruby](https://galaxy.ansible.com/kadaan/ruby/)
+    - [engboilers.homebrew](https://galaxy.ansible.com/engboilers/homebrew/)
+    - [engboilers.prezto](https://galaxy.ansible.com/engboilers/prezto/)
+    - [engboilers.mas](https://galaxy.ansible.com/engboilers/mas/)
+    - [engboilers.node](https://galaxy.ansible.com/engboilers/node/)
+    - [engboilers.python](https://galaxy.ansible.com/engboilers/python/)
+    - [engboilers.ruby](https://galaxy.ansible.com/engboilers/ruby/)
     - [hnakamur.atom-packages](https://galaxy.ansible.com/hnakamur/atom-packages/)
 
 ## Example Playbook
 
     - hosts: localhost
       roles:
-        - { role: kadaan.mac-dev, macdev_execute: true }
+        - { role: engboilers.mac-dev, macdev_execute: true }
 
 ## License
 

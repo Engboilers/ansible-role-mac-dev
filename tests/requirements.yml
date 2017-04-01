@@ -1,8 +1,8 @@
 ---
-- src: kadaan.homebrew
-- src: kadaan.prezto
-- src: kadaan.mas
-- src: kadaan.node
-- src: kadaan.python
-- src: kadaan.ruby
+- src: engboilers.homebrew
+- src: engboilers.prezto
+- src: engboilers.mas
+- src: engboilers.node
+- src: engboilers.python
+- src: engboilers.ruby
 - src: hnakamur.atom-packages
