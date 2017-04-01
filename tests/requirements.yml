@@ -5,4 +5,4 @@
 - src: Engboilers.node
 - src: Engboilers.python
 - src: Engboilers.ruby
-- src: hnakamur.atom-packages
+- src: Engboilers.atom-packages
