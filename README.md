@@ -75,19 +75,19 @@ Global Ruby gems you would like to make sure are installed.
 
 ## Dependencies
 
-    - [engboilers.homebrew](https://galaxy.ansible.com/engboilers/homebrew/)
-    - [engboilers.prezto](https://galaxy.ansible.com/engboilers/prezto/)
-    - [engboilers.mas](https://galaxy.ansible.com/engboilers/mas/)
-    - [engboilers.node](https://galaxy.ansible.com/engboilers/node/)
-    - [engboilers.python](https://galaxy.ansible.com/engboilers/python/)
-    - [engboilers.ruby](https://galaxy.ansible.com/engboilers/ruby/)
+    - [Engboilers.homebrew](https://galaxy.ansible.com/engboilers/homebrew/)
+    - [Engboilers.prezto](https://galaxy.ansible.com/engboilers/prezto/)
+    - [Engboilers.mas](https://galaxy.ansible.com/engboilers/mas/)
+    - [Engboilers.node](https://galaxy.ansible.com/engboilers/node/)
+    - [Engboilers.python](https://galaxy.ansible.com/engboilers/python/)
+    - [Engboilers.ruby](https://galaxy.ansible.com/engboilers/ruby/)
     - [hnakamur.atom-packages](https://galaxy.ansible.com/hnakamur/atom-packages/)
 
 ## Example Playbook
 
     - hosts: localhost
       roles:
-        - { role: engboilers.mac-dev, macdev_execute: true }
+        - { role: Engboilers.mac-dev, macdev_execute: true }
 
 ## License
 
