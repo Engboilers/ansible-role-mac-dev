@@ -1,8 +1,8 @@
 ---
-- src: engboilers.homebrew
-- src: engboilers.prezto
-- src: engboilers.mas
-- src: engboilers.node
-- src: engboilers.python
-- src: engboilers.ruby
+- src: Engboilers.homebrew
+- src: Engboilers.prezto
+- src: Engboilers.mas
+- src: Engboilers.node
+- src: Engboilers.python
+- src: Engboilers.ruby
 - src: hnakamur.atom-packages
